@@ -1,0 +1,78 @@
+.summary-container {
+    width: 80%;
+    max-width: 1000px;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2.5);
+    background-color: white;
+  }
+  
+  .summary-title {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .summary-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .summary-input {
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  
+  .summary-button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 16px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .summary-button:hover {
+    background-color: #1565c0;
+  }
+  
+  .summary-link {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .summary-alert {
+    margin-bottom: 16px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .summary-card {
+    margin-top: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: var(--bg-default);
+    height: 500px;
+    overflow: auto;
+    padding: 16px;
+  }
+  
+  .summary-placeholder {
+    font-size: 1.25rem;
+    color: #555;
+    text-align: center;
+    line-height: 450px;
+  }
+  
